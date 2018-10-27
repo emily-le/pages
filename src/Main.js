@@ -8,8 +8,8 @@ class Main extends Component {
       <div className="Main">
         <script>
           alert( 'Hello, world!' );
-          <RouteLinks/>
         </script>
+          <RouteLinks/>
       </div>
     );
   }
