@@ -18,4 +18,4 @@ class Main extends Component {
 export default Main;
 
 var name = document.getElementById("test");
-alert("THHHHH");
+// alert("THHHHH");
