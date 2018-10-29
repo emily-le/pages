@@ -12,7 +12,7 @@ import Done from './Done';
 
 const RouteLinks = () => (
     <Switch>
-        <Route exact path="/start" component={StartScreen} />
+        <Route exact path="/" component={StartScreen} />
         <Route exact path="/savedlists" component={SavedLists} />
         <Route exact path="/location" component={StartLocation} />
         <Route exact path="/ingredientslist" component={IngredientsList} />
