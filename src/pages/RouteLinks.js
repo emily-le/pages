@@ -11,17 +11,15 @@ import Email from './Email';
 import Done from './Done';
 
 const RouteLinks = () => (
-    <Router basename={'/G-graph'}>
-        <Route exact path={`#process.env.PUBLIC_URL}/start`} component={StartScreen} />
-        <Route exact path={`#process.env.PUBLIC_URL}/savedlists`} component={SavedLists} />
-        {/*
+    <Switch>
+        <Route exact path="/start" component={StartScreen} />
+        <Route exact path="/savedlists" component={SavedLists} />
         <Route exact path="/location" component={StartLocation} />
         <Route exact path="/ingredientslist" component={IngredientsList} />
         <Route exact path="/storemap" component={StoreMap} />
         <Route exact path="/email" component={Email} />
         <Route exact path="/done" component={Done} />
-        */}
-    </Router>
+    </Switch>
 )
 
 export default RouteLinks
