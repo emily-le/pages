@@ -2,6 +2,7 @@
   "name": "g-graph",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://emily-le.github.io/G-Graph",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
