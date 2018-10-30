@@ -8,7 +8,9 @@ class Main extends Component {
       <div className="Main">
         <script>
           alert( 'Hello, world!' );
+          <p>hello</p>
         </script>
+        <p>TESTTESTETS</p>
           <RouteLinks/>
       </div>
     );
@@ -18,4 +20,4 @@ class Main extends Component {
 export default Main;
 
 var name = document.getElementById("test");
-// alert("THHHHH");
+ alert("THHHHH");
