@@ -7,8 +7,6 @@ import { BrowserRouter } from 'react-router-dom';
 import RouteLinks from './pages/RouteLinks';
 
 ReactDOM.render((
-    <BrowserRouter>
      <Main />
-    </BrowserRouter>
 ), document.getElementById('root'));
 //registerServiceWorker();
